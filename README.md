@@ -15,3 +15,8 @@ Learning ML Engineering from scratch, using only Android.
 ## How to run
 1. Open notebook.ipynb in Google Colab
 2. Run all cells
+
+## Day 3: Load + Predict
+- Used joblib.load() to load saved model
+- Made predictions on new house data
+- Goal: Wrap this in a simple API next
