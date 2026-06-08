@@ -22,3 +22,32 @@ Learning ML Engineering from scratch, using only Android.
 - Trained Linear Regression on house data
 - Saved model with joblib: model.pkl, features.pkl  
 - Loaded model to predict: 1600 sqft, 3 bed, 7yr old = $234,687.20- 
+
+## Day 4/100: ML Web App with Gradio ✅
+
+**Project**: House Price Predictor UI  
+**Tech Stack**: Python, scikit-learn, Gradio, Colab, pickle  
+**Deployed**: gradio.live share link
+
+### What it does
+Takes user input → sqft, bedrooms, bathrooms → predicts house price in real-time
+
+**Example Prediction:**  
+Input: 1600 sqft, 3 bedrooms, 2 bathrooms  
+Output: `$138,650.31`
+
+### Challenges I killed
+1. `FileNotFoundError` - model.pkl missing after Colab reset
+2. `LocalTunnel 502/503` - Aba 30 B/s network vs Gradio tunneling 
+3. Colab runtime disconnections
+4. Stress-deleting files at 4 AM
+
+**Lesson learned**: Never delete files from stress. Debug first, delete last.
+
+### Screenshots
+![UI Interface](link_to_ui_screenshot_here)  
+![Prediction Result $138,650.31](link_to_prediction_screenshot_here)
+
+### Links
+**Live Demo**: [gradio.live/xxxxx] - expires in 72hrs  
+**Code**: [Colab Notebook link]
