@@ -71,3 +71,13 @@ Timestamp: April 8, 2026 1:37 AM WAT
 
 **2. Prediction Live:**
 ![House Price Predictor UI](Screenshots/day4-prediction.png)
+
+## Day 4 Proof - House Price Predictor
+
+**Gradio UI with inputs:**
+![Gradio UI](Screenshots/day4-ui.png)
+
+**Prediction Result:**
+![Prediction $138,650.31](Screenshots/day4-prediction.png)
+
+**Repo**: https://github.com/Johnzecus-ml-dev/aba-ml-journey-
