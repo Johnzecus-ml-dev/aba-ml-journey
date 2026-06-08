@@ -1,4 +1,4 @@
-# abbookbooka-ml-journey-
+# Aba-ml-journey-
 Day 1: Learning ML Engineering from Android in Aba 
 
 Learning ML Engineering from scratch, using only Android.
@@ -57,3 +57,5 @@ Output: `$138,650.31`
 Input: 1600 sqft, 3bd, 2ba
 Output: $138,650.31
 Timestamp: April 8, 2026 1:37 AM WAT
+![Gradio UI](Screenshots/Screenshot_day4-ui.png)
+![Prediction Result](Screenshots/Screenshot_day4-prediction.png)
