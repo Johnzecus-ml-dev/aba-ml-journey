@@ -45,8 +45,12 @@ Output: `$138,650.31`
 **Lesson learned**: Never delete files from stress. Debug first, delete last.
 
 ### Screenshots
-![UI Interface](link_to_ui_screenshot_here)  
-![Prediction Result $138,650.31](link_to_prediction_screenshot_here)
+
+   **Gradio UI:**
+   ![Gradio Interface](Screenshots/day4-ui.png)
+
+   **Prediction $138,650.31:**
+   ![Prediction Result](Screenshots/day4-prediction.png)
 
 ### Links
 **Live Demo**: [gradio.live/xxxxx] - expires in 72hrs  
