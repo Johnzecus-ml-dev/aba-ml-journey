@@ -63,3 +63,11 @@ Output: $138,650.31
 Timestamp: April 8, 2026 1:37 AM WAT
 ![Gradio UI](Screenshots/Screenshot_day4-ui.png)
 ![Prediction Result](Screenshots/Screenshot_day4-prediction.png)
+
+### Day 4 Screenshots
+
+**1. Training Complete:**
+![Model Saved](Screenshots/day4-ui.png)
+
+**2. Prediction Live:**
+![House Price Predictor UI](Screenshots/day4-prediction.png)
