@@ -81,3 +81,20 @@ Timestamp: April 8, 2026 1:37 AM WAT
 ![Prediction $138,650.31](Screenshots/day4-prediction.png)
 
 **Repo**: https://github.com/Johnzecus-ml-dev/aba-ml-journey-
+## Day 4: House Price Predictor with Gradio
+
+**Model trained + UI deployed**
+
+**Gradio Interface:**
+![Gradio UI inputs](Screenshots/day4-ui.png)
+
+**Live Prediction $138,650.31:**
+![Prediction Result](Screenshots/day4-prediction.png)
+
+**Challenges + Lessons learned:**
+1. Colab runtime expired - had to reinstall dependencies
+2. Gradio port was blocked - used `share=True` to get public link
+3. File naming chaos - learned to name files before uploading
+4. README links broke - learned GitHub paths are case-sensitive
+
+**Repo**: https://github.com/Johnzecus-ml-dev/aba-ml-journey-
