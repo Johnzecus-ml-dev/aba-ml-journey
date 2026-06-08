@@ -51,3 +51,9 @@ Output: `$138,650.31`
 ### Links
 **Live Demo**: [gradio.live/xxxxx] - expires in 72hrs  
 **Code**: [Colab Notebook link]
+![UI Interface](screenshots/day4-ui.png)  
+![Prediction Result $138,650.31](screenshots/day4-prediction.png)
+**Prediction Proof**: 
+Input: 1600 sqft, 3bd, 2ba
+Output: $138,650.31
+Timestamp: April 8, 2026 1:37 AM WAT
