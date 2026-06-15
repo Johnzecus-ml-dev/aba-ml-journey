@@ -98,3 +98,34 @@ Timestamp: April 8, 2026 1:37 AM WAT
 4. README links broke - learned GitHub paths are case-sensitive
 
 **Repo**: https://github.com/Johnzecus-ml-dev/aba-ml-journey-
+
+# Aba House Price Predictor 🏠💰
+### Day 5/100 of my ML Engineering Journey
+
+**From "502 Bad Gateway" Day 4 → "My model predicts house prices" Day 5** 
+
+I went from fighting deployment errors to deploying a live ML model in 24hrs. No PhD. No cert. Just Python + joblib + Gradio.
+
+### What I Built
+A machine learning model that predicts house prices in Aba based on:
+- **Square Feet**
+- **Bedrooms** 
+- **Bathrooms**
+
+**Live Demo**: [Try it here](your-gradio-link)  
+**Prediction Example**: 1500sqft, 3bed, 2bath → `$150,000.00`
+
+### What I Proved in 24hrs ✅
+1. **Train**: Built LinearRegression model from scratch
+2. **Save**: Used joblib to freeze model so Colab crashes can't stop me
+3. **Load**: Load trained model instantly without retraining  
+4. **Deploy**: Launched public Gradio interface for anyone to use
+
+### Tech Stack
+`Python` `scikit-learn` `joblib` `Gradio` `NumPy` `Pandas`
+
+### How to Run
+```bash
+pip install scikit-learn joblib gradio
+python train_model.py
+python app.py 
