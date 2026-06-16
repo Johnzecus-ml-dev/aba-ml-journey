@@ -1,4 +1,4 @@
-# Aba-ml-journey-
+# Aba-ml-journey
 Day 1: Learning ML Engineering from Android in Aba 
 
 Learning ML Engineering from scratch, using only Android.
@@ -80,7 +80,7 @@ Timestamp: April 8, 2026 1:37 AM WAT
 **Prediction Result:**
 ![Prediction $138,650.31](Screenshots/day4-prediction.png)
 
-**Repo**: https://github.com/Johnzecus-ml-dev/aba-ml-journey-
+**Repo**: https://github.com/Johnzecus-ml-dev/aba-ml-journey
 ## Day 4: House Price Predictor with Gradio
 
 **Model trained + UI deployed**
@@ -97,7 +97,7 @@ Timestamp: April 8, 2026 1:37 AM WAT
 3. File naming chaos - learned to name files before uploading
 4. README links broke - learned GitHub paths are case-sensitive
 
-**Repo**: https://github.com/Johnzecus-ml-dev/aba-ml-journey-
+**Repo**: https://github.com/Johnzecus-ml-dev/aba-ml-journey
 
 # Aba House Price Predictor 🏠💰
 ### Day 5/100 of my ML Engineering Journey
