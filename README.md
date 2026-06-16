@@ -44,19 +44,6 @@ Output: `$138,650.31`
 
 **Lesson learned**: Never delete files from stress. Debug first, delete last.
 
-### Screenshots
-
-   **Gradio UI:**
-   ![Gradio Interface](Screenshots/day4-ui.png)
-
-   **Prediction $138,650.31:**
-   ![Prediction Result](Screenshots/day4-prediction.png)
-
-### Links
-**Live Demo**: [gradio.live/xxxxx] - expires in 72hrs  
-**Code**: [Colab Notebook link]
-![UI Interface](screenshots/day4-ui.png)  
-![Prediction Result $138,650.31](screenshots/day4-prediction.png)
 **Prediction Proof**: 
 Input: 1600 sqft, 3bd, 2ba
 Output: $138,650.31
