@@ -48,35 +48,10 @@ Output: `$138,650.31`
 Input: 1600 sqft, 3bd, 2ba
 Output: $138,650.31
 Timestamp: April 8, 2026 1:37 AM WAT
-![Gradio UI](Screenshots/Screenshot_day4-ui.png)
-![Prediction Result](Screenshots/Screenshot_day4-prediction.png)
-
-### Day 4 Screenshots
-
-**1. Training Complete:**
-![Model Saved](Screenshots/day4-ui.png)
-
-**2. Prediction Live:**
-![House Price Predictor UI](Screenshots/day4-prediction.png)
-
-## Day 4 Proof - House Price Predictor
-
-**Gradio UI with inputs:**
-![Gradio UI](Screenshots/day4-ui.png)
-
-**Prediction Result:**
-![Prediction $138,650.31](Screenshots/day4-prediction.png)
+![Gradio UI](screenshot_day4-ui.png)
+![Prediction Result](screenshot_day4-prediction.png)
 
 **Repo**: https://github.com/Johnzecus-ml-dev/aba-ml-journey
-## Day 4: House Price Predictor with Gradio
-
-**Model trained + UI deployed**
-
-**Gradio Interface:**
-![Gradio UI inputs](Screenshots/day4-ui.png)
-
-**Live Prediction $138,650.31:**
-![Prediction Result](Screenshots/day4-prediction.png)
 
 **Challenges + Lessons learned:**
 1. Colab runtime expired - had to reinstall dependencies
