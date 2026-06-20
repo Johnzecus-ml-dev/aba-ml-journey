@@ -48,8 +48,8 @@ Output: `$138,650.31`
 Input: 1600 sqft, 3bd, 2ba
 Output: $138,650.31
 Timestamp: April 8, 2026 1:37 AM WAT
-![Gradio UI](screenshot_day4-ui.png)
-![Prediction Result](screenshot_day4-prediction.png)
+![Gradio UI](screenshots/day4-ui.png)
+![Prediction Result](screenshots/day4-prediction.png)
 
 **Repo**: https://github.com/Johnzecus-ml-dev/aba-ml-journey
 
@@ -58,8 +58,6 @@ Timestamp: April 8, 2026 1:37 AM WAT
 2. Gradio port was blocked - used `share=True` to get public link
 3. File naming chaos - learned to name files before uploading
 4. README links broke - learned GitHub paths are case-sensitive
-
-**Repo**: https://github.com/Johnzecus-ml-dev/aba-ml-journey
 
 # Aba House Price Predictor 🏠💰
 ### Day 5/100 of my ML Engineering Journey
