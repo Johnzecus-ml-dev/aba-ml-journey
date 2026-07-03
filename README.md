@@ -2,100 +2,61 @@
 # Aba Farm Data ML 🌾🌴🍫
 > Production ML for Abia State agriculture: Palm Oil, Cocoa, Cassava, Plantain, Maize, Garden Egg, Pepper, Yam.
 
-**TL;DR:** Building FastAPI to predict yield for 8 major Abia crops. Helping 10k+ farmers with data. 
-**Status:** Maize v1.0 Shipping 12 AM Tonight | Palm Oil + Cocoa v1.0 Week 2 | Others in pipeline
+**TL;DR:** Building FastAPI to predict yield for 8 major Abia crops. Helping 10k+ farmers with data.  
+**Status:** Maize v1.0 Shipping Tonight | Palm Oil + Cocoa v1.0 Week 2 | Others in pipeline  
 **Impact:** Reduce post-harvest loss. Increase farmer income. Built from Android in Aba on 30 B/s network.
 
 **Tech:** `Python` `scikit-learn` `joblib` `FastAPI` `Pandas` `Colab` `GitHub Actions`
 
 **Recruiters:** ThriveAgric, Releaf, AFEX, Olam, IITA — This is SE Nigeria AgTech. Let’s talk.
-Day 1: Learning ML Engineering from Android in Aba 
 
-Learning ML Engineering from scratch, using only Android.
+---
 
-## Day 1: Setup 
-- Created GitHub account + repo
-- Goal: Learn ML → ML Engineering step by step
+### **Day 1: Learning ML Engineering from Android in Aba**
+Goal: Build production ML for African agriculture. No laptop. No PhD. Just grit.
 
-## Day 2: Train + Save Model
-- Trained Linear Regression for house price prediction  
-- Used joblib.dump() to save model + features to .pkl
-- Next: Learn how to load model and predict
+### **Day 2-3: Train + Save First Model**
+Trained LinearRegression for **Aba maize yield prediction**  
+Used `joblib.dump()` to save model + features to `.pkl`  
+**Features:** rainfall_mm, soil_ph, farm_size_hectares, fertilizer_kg  
+**Next:** Load model and predict via API
 
-## How to run
-1. Open notebook.ipynb in Google Colab Run all cell
-- Used joblib.load() to load saved model
-- Made predictions on new house data
-- Goal- nextrap this in a simsimple API's next
+### **Day 4/100: ML Web App with Gradio ✅**
+**Project:** Aba Maize Yield Predictor UI  
+**Tech Stack:** Python, scikit-learn, Gradio, Colab, joblib  
+**Deployed:** gradio.live share link
 
-## Day 3: Save & Load Model
-- Trained Linear Regression on house data
-- Saved model with joblib: model.pkl, features.pkl  
-- Loaded model to predict: 1600 sqft, 3 bed, 7yr old = $234,687.20- 
-
-## Day 4/100: ML Web App with Gradio ✅
-
-**Project**: House Price Predictor UI  
-**Tech Stack**: Python, scikit-learn, Gradio, Colab, pickle  
-**Deployed**: gradio.live share link
-
-### What it does
-Takes user input → sqft, bedrooms, bathrooms → predicts house price in real-time
+**What it does:**  
+Takes farmer input → rainfall, soil pH, farm size → predicts maize yield in kg/hectare real-time
 
 **Example Prediction:**  
-Input: 1600 sqft, 3 bedrooms, 2 bathrooms  
-Output: `$138,650.31`
+Input: 1200mm rainfall, 6.5 pH, 2 hectares  
+Output: 2,400 kg estimated yield
 
-### Challenges I killed
+### **Day 5/100: From Debug Hell to Deployment**
+**Challenges I Killed:**
 1. `FileNotFoundError` - model.pkl missing after Colab reset
-2. `LocalTunnel 502/503` - Aba 30 B/s network vs Gradio tunneling 
-3. Colab runtime disconnections
-4. Stress-deleting files at 4 AM
+2. `LocalTunnel 502/503` - Aba 30 B/s network vs Gradio tunneling  
+3. Colab runtime disconnections at 4 AM
+4. Stress-deleting files instead of debugging
 
-**Lesson learned**: Never delete files from stress. Debug first, delete last.
+**Lesson learned:** Never delete files from stress. Debug first, delete last.  
 
-**Prediction Proof**: 
-Input: 1600 sqft, 3bd, 2ba
-Output: $138,650.31
-Timestamp: April 8, 2026 1:37 AM WAT
-![Gradio UI](screenshots/day4-ui.png)
-![Prediction Result](screenshots/day4-prediction.png)
+**What I Proved in 24hrs ✅**
+1. **Train:** Built LinearRegression model for Aba crops from scratch
+2. **Save:** Used joblib to freeze model so Colab crashes can't stop me
+3. **Load:** Load trained model instantly without retraining  
+4. **Deploy:** Launched public Gradio interface for farmers to use
 
-**Repo**: https://github.com/Johnzecus-ml-dev/aba-ml-journey
+### **Day 6/100: Aba Farm Data API 🏠→🌾**
+**Pivoted from generic tutorials to real impact.**  
+**Now Building:** FastAPI with 8 endpoints: `/predict/palm_oil`, `/predict/maize`, `/predict/yam`...  
+**Goal:** One API call helps an Aba farmer plan harvest.
 
-**Challenges + Lessons learned:**
-1. Colab runtime expired - had to reinstall dependencies
-2. Gradio port was blocked - used `share=True` to get public link
-3. File naming chaos - learned to name files before uploading
-4. README links broke - learned GitHub paths are case-sensitive
+**Tech Stack v2.0**  
+`Python` `scikit-learn` `joblib` `FastAPI` `Pandas` `Uvicorn`
 
-# Aba House Price Predictor 🏠💰
-### Day 5/100 of my ML Engineering Journey
-
-**From "502 Bad Gateway" Day 4 → "My model predicts house prices" Day 5** 
-
-I went from fighting deployment errors to deploying a live ML model in 24hrs. No PhD. No cert. Just Python + joblib + Gradio.
-
-### What I Built
-A machine learning model that predicts house prices in Aba based on:
-- **Square Feet**
-- **Bedrooms** 
-- **Bathrooms**
-
-**Live Demo**: [Try it here](your-gradio-link)  
-**Prediction Example**: 1500sqft, 3bed, 2bath → `$150,000.00`
-
-### What I Proved in 24hrs ✅
-1. **Train**: Built LinearRegression model from scratch
-2. **Save**: Used joblib to freeze model so Colab crashes can't stop me
-3. **Load**: Load trained model instantly without retraining  
-4. **Deploy**: Launched public Gradio interface for anyone to use
-
-### Tech Stack
-`Python` `scikit-learn` `joblib` `Gradio` `NumPy` `Pandas`
-
-### How to Run
+**How to Run**
 ```bash
-pip install scikit-learn joblib gradio
-python train_model.py
-python app.py 
+pip install scikit-learn joblib fastapi uvicorn pandas
+uvicorn api.main:app --reload
