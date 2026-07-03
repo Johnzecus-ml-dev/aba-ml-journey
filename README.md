@@ -48,10 +48,10 @@ Output: 2,400 kg estimated yield
 3. **Load:** Load trained model instantly without retraining  
 4. **Deploy:** Launched public Gradio interface for farmers to use
 
-### **Day 6/100: Aba Farm Data API 🏝️🌽🥒🍍→🌾**
-**Pivoted from generic tutorials to real impact.**  
-**Now Building:** FastAPI with 8 endpoints: `/predict/palm_oil`, `/predict/maize`, `/predict/yam`...  
-**Goal:** One API call helps an Aba farmer plan harvest.
+Day 6/100: Aba Farm Data API 🌾🚀
+Pivoted from generic tutorials to real impact.
+Now Building: FastAPI with 8 endpoints: /predict/palm_oil, /predict/maize, /predict/yam...
+Goal: One API call helps an Aba farmer plan harvest.
 
 **Tech Stack v2.0**  
 `Python` `scikit-learn` `joblib` `FastAPI` `Pandas` `Uvicorn`
