@@ -1,4 +1,14 @@
 # Aba-ml-journey
+# Aba Farm Data ML 🌾🌴🍫
+> Production ML for Abia State agriculture: Palm Oil, Cocoa, Cassava, Plantain, Maize, Garden Egg, Pepper, Yam.
+
+**TL;DR:** Building FastAPI to predict yield for 8 major Abia crops. Helping 10k+ farmers with data. 
+**Status:** Maize v1.0 Shipping 12 AM Tonight | Palm Oil + Cocoa v1.0 Week 2 | Others in pipeline
+**Impact:** Reduce post-harvest loss. Increase farmer income. Built from Android in Aba on 30 B/s network.
+
+**Tech:** `Python` `scikit-learn` `joblib` `FastAPI` `Pandas` `Colab` `GitHub Actions`
+
+**Recruiters:** ThriveAgric, Releaf, AFEX, Olam, IITA — This is SE Nigeria AgTech. Let’s talk.
 Day 1: Learning ML Engineering from Android in Aba 
 
 Learning ML Engineering from scratch, using only Android.
